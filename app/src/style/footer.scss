@@ -1,0 +1,14 @@
+.footer {
+	background: #273032;
+	padding: 45px 0 37px 0;
+	color: #fff;
+	&__wrapp {
+		max-width: 1269px;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 auto;
+	}
+}
+
