@@ -31,10 +31,12 @@
 		}
 	}
 	&__navbar {
+		position: relative;
 		width: 100%;
 		background: #fff;
 		padding: 29px 0 33px 0;
 		color: #000;
+		z-index: 100;
 		@media screen and (max-height: 1269px) {
 			padding: 20px 0;
 		}
@@ -138,7 +140,7 @@
 	&__h1 {
 		position: relative;
 		margin-top: 119px;
-		max-width: 363px;
+		max-width: 404px;
 		width: 100%;
 		@media screen and (max-height: 722px) {
 			margin-top: 28px !important;
@@ -155,7 +157,7 @@
 		}
 		@media screen and (max-width: 540px) {
 			font-size: 1rem !important;
-			max-width: 153px;
+			max-width: 172px;
 		}
 		&:after {
 			position: absolute;
