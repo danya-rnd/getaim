@@ -2,5 +2,12 @@
 	&_h2 {
 		font-size: 2.375rem;
 		font-family: $source;
+		@media screen and (max-width: 942px) {
+			text-align: center;
+			max-width: 100% !important;
+		}
+		@media screen and (max-width: 620px) {
+			font-size: 1.5rem;
+		}
 	}
 }

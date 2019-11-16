@@ -6,23 +6,35 @@
 		flex-direction: row;
 		justify-content: flex-end;
 		margin-top: 36px;
+		@media screen and (max-width: 785px) {
+			flex-direction: column-reverse;
+			align-items: center;
+			margin-top: 20px;
+		}
 	}
 	&__text {
 		max-width: 204px;
 		text-align: right;
 		color: #4b5057;
 		margin-right: 20px;
+		@media screen and (max-width: 785px) {
+			text-align: center;
+			margin-right: 0;
+			margin-top: 20px;
+		}
 	}
 }
 
 .input-box {
 	display: flex;
 	width: 100%;
-	justify-content: flex-end;
+	justify-content: center;
 	align-items: center;
 	margin-bottom: 10px;
 	&__label {
 		margin-right: 21px;
+		width: 135px;
+		text-align: end;
 		&_textarea {
 			padding-top: 12px;
 		}

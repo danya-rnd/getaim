@@ -25,6 +25,9 @@ strong {
 	position: relative;
 	padding: 117px 0 113px 0;
 	box-sizing: border-box;
+	@media screen and (max-width: 674px) {
+		padding: 50px 0;
+	}
 	&__wrapp {
 		max-width: 897px;
 		width: 100%;
@@ -32,11 +35,24 @@ strong {
 		flex-direction: row;
 		justify-content: space-between;
 		margin: 0 auto;
-	}
+		@media screen and (max-width: 1269px) {
+			box-sizing: border-box;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+		@media screen and (max-width: 674px) {
+			flex-direction: column;
+			align-items: center;
+
+		}
+	}	
 	&__item {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
+		@media screen and (max-width: 674px) {
+			margin: 10px 0;
+		}
 	}
 	&__num {
 		color: #0463ff;
@@ -58,10 +74,18 @@ strong {
 	padding: 102px 0 92px 0;
 	box-sizing: border-box;
 	color: #fff;
+	@media screen and (max-width: 799px) {
+		padding: 50px 0;
+	}
 	&__wrapp {
 		max-width: 1006px;
 		width: 100%;
 		margin: 0 auto;
+		@media screen and (max-width: 1269px) {
+			box-sizing: border-box;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
 	}
 	&__title {
 		max-width: 680px;
@@ -73,6 +97,12 @@ strong {
 		grid-row-gap: 97px;
 		grid-column-gap: 67px;
 		margin-top: 109px;
+		@media screen and (max-width: 942px) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+		@media screen and (max-width: 590px) {
+			grid-template-columns: repeat(1, 1fr);
+		}
 	}
 	&__icon-block {
 		display: flex;
@@ -95,6 +125,9 @@ strong {
 .technologie {
 	padding: 159px 0 81px 0;
 	box-sizing: border-box;
+	@media screen and (max-width: 799px) {
+		padding: 40px 0;
+	}
 	&__wrapp {
 		max-width: 801px;
 		width: 100%;
@@ -102,19 +135,33 @@ strong {
 		display: flex;
 		align-items: center;
 		flex-direction: column;
+		overflow: hidden;
+		@media screen and (max-width: 1269px) {
+			box-sizing: border-box;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
 	}
 	&__image {
 		animation: rotate 15s infinite linear;
+		@media screen and (max-width: 799px) {
+			width: 318px;
+			height: 318px;
+		}
 	}
 	&__circle {
 		position: relative;
 		margin-top: 78px;
+		overflow: hidden;
 	}
 	&__button {
 		margin-top: 77px;
 	}
 	&__title {
 		align-self: flex-start;
+		@media screen and (max-width: 942px) {
+			align-self: center;
+		}
 	}
 	&__text {
 		max-width: 190px;
@@ -130,6 +177,17 @@ strong {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		@media screen and (max-width: 799px) {
+			img {
+				width: 54px;
+				height: 54px;
+			}
+			.text {
+				font-size: 10px;
+				max-width: 104px;
+				margin-top: 6px;
+			}
+		}
 	}
 }
 
@@ -140,9 +198,17 @@ strong {
 	padding: 161px 0 158px 0;
 	box-sizing: border-box;
 	color: #fff;
+	@media screen and (max-width: 942px) {
+		padding: 50px 0;
+	}
 	&__wrapp {
 		max-width: 899px;
 		margin: 0 auto;
+		@media screen and (max-width:1269px) {
+			box-sizing: border-box;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
 	}
 	&__icons {
 		display: grid;
@@ -150,6 +216,11 @@ strong {
 		grid-column-gap: 137px;
 		grid-row-gap: 81px;
 		margin-top: 91px;
+		@media screen and (max-width: 942px) {
+			grid-template-columns: repeat(2, 1fr);
+			grid-row-gap: 81px;
+			grid-column-gap: 59px;
+		}
 	}
 	&__icon {
 		position: relative;
@@ -160,12 +231,19 @@ strong {
 	&__top-text {
 		opacity: .9;
 		margin-top: 29px;
+		@media screen and (max-width: 942px) {
+			text-align: center;
+		}
 	}
 	&__bottom-text {
 		opacity: .9;
 		margin-top: 84px;
 		max-width: 646px;
 		width: 100%;
+		@media screen and (max-width: 942px) {
+			text-align: center;
+			max-width: 100%;
+		}
 	}
 	&__icon-text {
 		text-align: center;
@@ -182,6 +260,9 @@ strong {
 	text-align: center;
 	padding: 118px 0 81px 0;
 	box-sizing: border-box;
+	@media screen and (max-width: 942px) {
+		padding: 70px 0;
+	}
 	&__wrapp {
 		max-width: 704px;
 		width: 100%;
@@ -189,6 +270,11 @@ strong {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		@media screen and (max-width: 1269px) {
+			box-sizing: border-box;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
 	}
 	&__text {
 		margin-top: 33px;
@@ -204,10 +290,18 @@ strong {
 .problems-second {
 	padding: 40px 0 99px 0;
 	box-sizing: border-box;
+	@media screen and (max-width: 799px) {
+		padding: 40px 0;
+	}
 	&__wrapp {
 		max-width: 977px;
 		width: 100%;
 		margin: 0 auto;
+		@media screen and (max-width: 1269px) {
+			box-sizing: border-box;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
 	}
 	&__title {
 		margin-top: 29px;
@@ -219,6 +313,12 @@ strong {
 		grid-gap: 89px;
 		grid-row-gap: 84px;
 		margin-top: 98px;
+		@media screen and (max-width: 942px) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+		@media screen and (max-width: 590px) {
+			grid-template-columns: repeat(1, 1fr);
+		}
 	}
 	&__icon {
 		display: flex;
@@ -233,11 +333,19 @@ strong {
 		width: 100%;
 		font-weight: bold;
 		margin-top: 149px;
+		@media screen and (max-width: 942px) {
+			max-width: 100%;
+			text-align: center;
+		}
 	}
 	&__photo {
 		position: relative;
 		display: block;
 		margin: 0 auto;
+		@media screen and (max-width: 438px) {
+			width: 100%;
+			height: auto;
+		}
 	}
 }
 
@@ -246,6 +354,10 @@ strong {
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 90px 0 50px 0;
+	@media screen and (max-width: 799px) {
+		background: #fff;
+		padding-bottom: 0;
+	}
 	&__wrapp {
 		max-width: 785px;
 		margin: 0 auto;
@@ -255,6 +367,13 @@ strong {
 		border-radius: 8px;
 		box-shadow: 5px 9px 23px 1px rgba(0, 0, 0, 0.24);
 		padding: 69px 69px 43px 69px;
+		@media screen and (max-width: 642px) {
+			padding: 20px;
+		}
+		@media screen and (max-width: 799px) {
+			border-radius: 0;
+			box-shadow: none;
+		}
 	}
 	&__title {
 		color: #1b71fe;
@@ -264,11 +383,18 @@ strong {
 		display: flex;
 		justify-content: space-between;
 		margin-top: 48px;
+		@media screen and (max-width: 799px) {
+			flex-direction: column;
+			align-items: center;
+		}
 	}
 	&__contact {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
+		@media screen and (max-width: 799px) {
+			margin: 15px 0;
+		}
 		img {
 			margin-right: 9px;
 		}
@@ -287,6 +413,11 @@ strong {
 		overflow: hidden;
 		border-radius: 8px;
 		box-shadow: 5px 9px 23px 1px rgba(0, 0, 0, 0.24);
+		@media screen and (max-width: 799px) {
+			margin-top: 0;
+			border-radius: 0;
+			box-shadow: none;
+		}
 		iframe {
 			width: 100%;
 			height: 100%;
