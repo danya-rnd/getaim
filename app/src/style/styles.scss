@@ -119,6 +119,8 @@ strong {
 		}
 		@media screen and (max-width: 590px) {
 			grid-template-columns: repeat(1, 1fr);
+			margin-top: 57px;
+			grid-row-gap: 48px;
 		}
 	}
 	&__icon-block {
@@ -169,11 +171,31 @@ strong {
 			width: 318px;
 			height: 318px;
 		}
+		@media screen and (max-width: 350px) {
+			width: 300px;
+			height: 300px;
+		}
 	}
 	&__circle {
 		position: relative;
 		margin-top: 78px;
 		overflow: hidden;
+	}
+	.text-image {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-52%, -50%);
+		@media screen and (max-width: 799px) {
+			width: 267px;
+			height: 241px;
+			transform: translate(-51%, -50%);
+		}
+		@media screen and (max-width: 350px) {
+			width: 243px;
+			height: 228px;
+			transform: translate(-52%, -50%);
+		}
 	}
 	&__button {
 		margin-top: 77px;
@@ -241,6 +263,12 @@ strong {
 			grid-template-columns: repeat(2, 1fr);
 			grid-row-gap: 81px;
 			grid-column-gap: 59px;
+		}
+		@media screen and (max-width: 540px) {
+			margin-top: 40px;
+		}
+		@media screen and (max-width: 350px) {
+			grid-column-gap: 10px;
 		}
 	}
 	&__icon {
@@ -358,6 +386,9 @@ strong {
 			max-width: 100%;
 			text-align: center;
 		}
+		@media screen and (max-width: 540px) {
+			margin-top: 65px;
+		}
 	}
 	&__photo {
 		position: relative;
@@ -379,6 +410,9 @@ strong {
 		background: #fff;
 		padding-bottom: 0;
 	}
+	@media screen and (max-width: 540px) {
+		padding-top: 0px;
+	}
 	&__wrapp {
 		max-width: 785px;
 		margin: 0 auto;
@@ -399,6 +433,7 @@ strong {
 	&__title {
 		color: #1b71fe;
 		text-align: center;
+		text-transform: uppercase;
 	}
 	&__contacts {
 		display: flex;
@@ -444,6 +479,10 @@ strong {
 			height: 100%;
 			margin-top: 38px;
 			border: none;
+			border-radius: 8px;
+			@media screen and (max-width: 799px) {
+				border-radius: 0;
+			}
 		}
 	}
 }
