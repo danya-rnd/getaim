@@ -54,19 +54,22 @@
 	box-sizing: border-box;
 	padding-left: 20px;
 	font-size: 1rem;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
 }
 
 .textarea {
+	font-family: 'Lato', sans-serif;
 	max-width: 536px;
 	width: 100%;
-	border-radius: 20px;
+	border-radius: 8px;
 	border: 2px solid #dddddd;
 	outline: none;
 	box-sizing: border-box;
 	padding-left: 20px;
 	font-weight: 400;
 	padding-top: 10px;
-	font-size: 1rem;
+	font-size: 1.09rem;
 	height: 200px;
 	font-family: 'Source Sans Pro', sans-serif;
 }

@@ -91,6 +91,11 @@
 			@media screen and (max-width: 1668px) {
 				max-width: 100%;
 			}
+			@media screen and (max-width: 540px) {
+				&:after {
+					display: none;
+				}
+			}
 		}
 		&:after {
 			position: absolute;
@@ -159,6 +164,11 @@
 		margin: 31px auto 0;
 		@media screen and (max-width: 1668px) {
 			margin-top: 50px;
+		}
+	}
+	.bottom-mobile-none {
+		@media screen and (max-width: 540px) {
+			display: none;
 		}
 	}
 }
